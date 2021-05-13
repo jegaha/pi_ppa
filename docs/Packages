@@ -31,15 +31,15 @@ Description: PiIdCard
  It will show some system information on an i2c oled display.
 
 Package: piidcard
-Version: 1.0-3
+Version: 1.0-4
 Architecture: all
 Maintainer: Jens Gabrikowski <jens@gabrikowski.de>
-Depends: i2c-tools, python3, python3-pip, python3-pil
-Filename: ./piidcard_1.0-3.deb
-Size: 2236
-MD5sum: b24006a460d753feca77010652b330e5
-SHA1: b5deb1054745661e93fa7111cd627b865b76e7c0
-SHA256: 1e5219887c3e454c838d87b1b2fe0a8a80b99080c2e1a17621d0a5ffbc58552e
+Depends: i2c-tools, python3, python3-pip, python3-pil, fonts-arkpandora
+Filename: ./piidcard_1.0-4.deb
+Size: 2252
+MD5sum: fb912c42b181530aaf75fdf513645456
+SHA1: cbb7a5376e16e9cb4d0eb36c6afb4d295a7841d3
+SHA256: 9974987e91d3e01e109a9d2d3879be6d6e0f4970c1af60cc05f313c40c3ce758
 Section: base
 Priority: optional
 Description: PiIdCard
