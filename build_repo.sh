@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 gpg --import ./my-private-key.asc
-cd pi_ppa
+cd docs
 
 # Packages & Packages.gz
 dpkg-scanpackages --multiversion . > Packages
