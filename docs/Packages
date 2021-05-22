@@ -46,3 +46,19 @@ Description: PiIdCard
  Package to install and run PiIdCard on a Raspberry Pi.
  It will show some system information on an i2c oled display.
 
+Package: pishutdownbutton
+Version: 1.0-1
+Architecture: all
+Maintainer: Jens Gabrikowski <jens@gabrikowski.de>
+Depends: python3, python3-pip
+Filename: ./pishutdownbutton_1.0-1.deb
+Size: 1376
+MD5sum: a61db0aa3589a94efeb53dfbf3434d54
+SHA1: d89a2aa4b42d3a06479e2b4d4e68c64bcea69a07
+SHA256: dd4b2f51a25d868334c6f87bb44bdb81b3b84fcffeae89ac0e40b720b236e5f1
+Section: base
+Priority: optional
+Description: PiShutdownButton
+ Package to install and run PiShutdownButton on a Raspberry Pi.
+ It will wait for a GPIO button pressed to shutdown the system.
+
