@@ -62,3 +62,19 @@ Description: PiShutdownButton
  Package to install and run PiShutdownButton on a Raspberry Pi.
  It will wait for a GPIO button pressed to shutdown the system.
 
+Package: pishutdownbutton
+Version: 1.0-2
+Architecture: all
+Maintainer: Jens Gabrikowski <jens@gabrikowski.de>
+Depends: python3, python3-pip
+Filename: ./pishutdownbutton_1.0-2.deb
+Size: 1592
+MD5sum: fe9fc3f3f1d5de8e21cfa20002408d07
+SHA1: 82562e5181b40c6aa790fb9dbf2041a76ef8aff7
+SHA256: d2b1275ee7c16782e4a04c5aa0a4c545e796eda4a19cea2ef57e99c06bf22a7b
+Section: base
+Priority: optional
+Description: PiShutdownButton
+ Package to install and run PiShutdownButton on a Raspberry Pi.
+ It will wait for a GPIO button pressed to shutdown the system.
+
