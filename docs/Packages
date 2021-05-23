@@ -62,6 +62,22 @@ Description: PiIdCard
  Package to install and run PiIdCard on a Raspberry Pi.
  It will show some system information on an i2c oled display.
 
+Package: piidcard
+Version: 1.0-8
+Architecture: all
+Maintainer: Jens Gabrikowski <jens@gabrikowski.de>
+Depends: i2c-tools, python3, python3-pip, python3-pil, fonts-arkpandora
+Filename: ./piidcard_1.0-8.deb
+Size: 2828
+MD5sum: 5babf219c9b7a93f59f102b8cfd42728
+SHA1: 0a89a4b0d5208eeaf032672367956a96412fcf0e
+SHA256: cdfae0bd826163d3869a924dc583f23c4c7b87d1237597213f394e2691171b35
+Section: base
+Priority: optional
+Description: PiIdCard
+ Package to install and run PiIdCard on a Raspberry Pi.
+ It will show some system information on an i2c oled display.
+
 Package: pishutdownbutton
 Version: 1.0-1
 Architecture: all
