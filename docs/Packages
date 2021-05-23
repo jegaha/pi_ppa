@@ -67,11 +67,12 @@ Version: 1.0-8
 Architecture: all
 Maintainer: Jens Gabrikowski <jens@gabrikowski.de>
 Depends: i2c-tools, python3, python3-pip, python3-pil, fonts-arkpandora
+Suggests: ntp
 Filename: ./piidcard_1.0-8.deb
-Size: 2828
-MD5sum: 5babf219c9b7a93f59f102b8cfd42728
-SHA1: 0a89a4b0d5208eeaf032672367956a96412fcf0e
-SHA256: cdfae0bd826163d3869a924dc583f23c4c7b87d1237597213f394e2691171b35
+Size: 2840
+MD5sum: ec4005085db047d81baca36c307ca440
+SHA1: b79334af8db1a74e6bdee372af58f000d2d82220
+SHA256: 7b5aaa90c41edb89a7ec9685dc6e3c9dacfcbede43eed63dd8ece8d0243601be
 Section: base
 Priority: optional
 Description: PiIdCard
