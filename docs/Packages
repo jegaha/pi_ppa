@@ -1,36 +1,4 @@
 Package: piidcard
-Version: 1.0-1
-Architecture: all
-Maintainer: Jens Gabrikowski <jens@gabrikowski.de>
-Pre-Depends: i2c-tools, python3, python3-pip, python3-pil
-Filename: ./piidcard_1.0-1.deb
-Size: 2584
-MD5sum: b27a3905c003debe88a912bea0d95e31
-SHA1: b268badf15ef723f4aff55aa3e3c3b0fea28a889
-SHA256: 280dd549d89d24bcbc443d20283f261d8666a23ccb994d1d82576e3e87d2b2bc
-Section: base
-Priority: optional
-Description: PiIdCard
- Package to install and run PiIdCard on a Raspberry Pi.
- It will show some system information on a i2c oled display.
-
-Package: piidcard
-Version: 1.0-2
-Architecture: all
-Maintainer: Jens Gabrikowski <jens@gabrikowski.de>
-Depends: i2c-tools, python3, python3-pip, python3-pil
-Filename: ./piidcard_1.0-2.deb
-Size: 2588
-MD5sum: 40a4bfdfad8030785331c564b9d17958
-SHA1: ab0f7972c2e58771478bb930b413b67856ddfc2e
-SHA256: 41f8f639cf348608cd196ceaca28b7ab70f2d76ed963b6c0830d6d6666345e93
-Section: base
-Priority: optional
-Description: PiIdCard
- Package to install and run PiIdCard on a Raspberry Pi.
- It will show some system information on an i2c oled display.
-
-Package: piidcard
 Version: 1.0-4
 Architecture: all
 Maintainer: Jens Gabrikowski <jens@gabrikowski.de>
@@ -40,6 +8,22 @@ Size: 2252
 MD5sum: fb912c42b181530aaf75fdf513645456
 SHA1: cbb7a5376e16e9cb4d0eb36c6afb4d295a7841d3
 SHA256: 9974987e91d3e01e109a9d2d3879be6d6e0f4970c1af60cc05f313c40c3ce758
+Section: base
+Priority: optional
+Description: PiIdCard
+ Package to install and run PiIdCard on a Raspberry Pi.
+ It will show some system information on an i2c oled display.
+
+Package: piidcard
+Version: 1.0-5
+Architecture: all
+Maintainer: Jens Gabrikowski <jens@gabrikowski.de>
+Depends: i2c-tools, python3, python3-pip, python3-pil, fonts-arkpandora
+Filename: ./piidcard_1.0-5.deb
+Size: 2784
+MD5sum: b07c32e511dc81d0968f5b08744d6f9c
+SHA1: e4296a5c6155f2d7aaa6bf05c824dc672586cc21
+SHA256: 13b361cc0c67545fc5a8bc173c1767a6f277a8c16f5824024c35c8d77b767a02
 Section: base
 Priority: optional
 Description: PiIdCard
